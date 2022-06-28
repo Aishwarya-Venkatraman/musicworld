@@ -1,4 +1,9 @@
 .header {
     background-color: #AB47BC !important;
     height: 60px;
+    .mobile-nav {
+        @media screen and (max-width: 747px) {
+            background: inherit;
+        }
+    }
 }
