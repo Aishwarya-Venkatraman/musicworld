@@ -23,6 +23,7 @@ export class PlaylistsComponent implements OnInit {
     } else {
       this.playList = this.playListService.getPlaylist.featuredPlaylists.content;
     }
+    scrollTo(0,0);
   }
 
 }

@@ -3,7 +3,7 @@
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.3.
 
 ## Comments
- This project uses bootstrap for navbar and Angular Material for the cards display. All files passes linting. Unit testing - 13 success with no failure.
+ This project uses bootstrap for navbar and Angular Material for the cards display. All files pass linting. Unit testing - 13 specs, 0 failures.
 
 
 ## Development server
