@@ -1,0 +1,18 @@
+.card-box {
+    margin-top: 20px;
+    .card-data {
+        margin-bottom: 20px;
+        @media screen and (min-width: 768px) and (max-width: 1024px) {
+            .mat-card-header {
+                min-height: 101px;
+            }
+        }
+        .mat-card-image {
+            height: 250px;
+            padding: 10px;
+        }
+        .mat-card-actions {
+            text-align: right;
+        }
+    }
+}

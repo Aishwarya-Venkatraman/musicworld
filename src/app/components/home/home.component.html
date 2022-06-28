@@ -1,0 +1,11 @@
+<div class="home-container">
+    <img class="banner" src="../../../assets/images/banner.jpg" />
+    <div class="container">
+        <app-cardplaylist *ngIf="playList !== undefined && playList.length > 0"></app-cardplaylist>
+        <div class="row">
+            <div class="col view-all">
+                <button mat-raised-button color="primary" (click)="goTo()">VIEW ALL</button>
+            </div>
+        </div>
+    </div>
+</div>

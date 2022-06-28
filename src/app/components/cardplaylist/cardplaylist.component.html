@@ -1,0 +1,15 @@
+<div class="row card-box">
+    <div class="col-md-4 card-data" *ngFor="let item of playList">
+        <mat-card class="example-card">
+            <mat-card-header>
+                <img src="../../../assets/images/cardicon.png" mat-card-avatar />
+                <mat-card-title>{{ item.name }}</mat-card-title>
+                <mat-card-subtitle>{{ item.curator_name }}</mat-card-subtitle>
+            </mat-card-header>
+            <img mat-card-image src={{item.artwork}} alt="Artwork">
+            <mat-card-actions>
+                <a mat-raised-button color="accent" target="_blank" href={{item.url}}>OPEN</a>
+            </mat-card-actions>
+        </mat-card>  
+    </div>
+</div>
