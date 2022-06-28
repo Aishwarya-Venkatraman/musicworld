@@ -2,6 +2,8 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.3.
 
+Click [here](https://musicworld-app.netlify.app/) to view this application.
+
 ## Comments
  This project uses bootstrap for navbar and Angular Material for the cards display. All files pass linting. Unit testing - 13 specs, 0 failures.
 
